@@ -1,0 +1,13 @@
+$ mkdir converter
+$ cd converter
+$ mkdir app
+$ mkdir test
+$ npm install --save mocha chai
+$ npm install --save request
+$ npm install --save express
+
+$ npx mocha --reporter spec
+    esse comando serve para rodar os arquivos de teste
+
+
+parei em: Describing the Color Converter
